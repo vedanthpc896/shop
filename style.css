@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+#head {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+    /* z-index: 1; */
+}
+.headtext{
+    color: rgb(191, 195, 198);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.products {
+    height: 343px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 4.9%;
+    background-color: rgb(156, 193, 179);
+}
+.prodhead {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.prod {
+    height: 200px;
+}
+.prodname {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.disc {
+    color: rgba(66, 66, 66, 0.971);
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.electronics {
+    height: 310px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 4.9%;
+    background-color: rgb(167, 212, 194);
+}
+.electprod {
+    height: 180px;
+}
+
+.home {
+    height: 310px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 4.9%;
+    background-color: rgb(167, 212, 194);
+}
+
+#footer {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media (max-width: 1201px) {
+    body {
+
+        visibility: hidden;
+        background-color: rgb(255, 255, 255);
+    }
+    #hiddentext {
+        color: black;
+        text-align: center;
+    }
+}
